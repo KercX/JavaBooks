@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io" />
+  <img src="https://img.shields.io/badge/github-repo-blue?logo=github" />
   <img src="https://img.shields.io" />
   <img src="https://img.shields.io" />
   <img src="https://img.shields.io" />
@@ -22,11 +22,7 @@
 2. [Global Language Index](#-global-language-index)
 3. [Core Categories](#-core-categories)
 4. [How to Contribute](#-how-to-contribute)
-5. [Automation Engine](#-automation-engine)
-6. [Roadmap 2024](#-roadmap-2024)
-7. [Code of Conduct](#-code-of-conduct)
-8. [License](#-license)
-9. [Stargazers Over Time](#-stargazers-over-time)
+
 
 ---
 

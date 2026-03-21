@@ -2,11 +2,6 @@
   <img src="https://capsule-render.vercel.app" />
 </p>
 
-<p align="center">
-  <a href="https://github.com"><img src="https://img.shields.io" alt="Stars"></a>
-  <a href="https://github.com"><img src="https://img.shields.io" alt="Forks"></a>
-  <a href="https://github.com"><img src="https://img.shields.io" alt="Watchers"></a>
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/github-repo-blue?logo=github" />
@@ -109,3 +104,4 @@ git checkout -b feature/add-new-book
 javac scripts/main.java && java -cp scripts main
 git commit -m "Add [Book Title] to [Language]"
 git push origin feature/add-new-book
+```

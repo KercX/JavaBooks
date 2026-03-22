@@ -5,7 +5,9 @@
 ![Java Version](https://img.shields.io/badge/Java-17-blue?style=flat-square)
 ![Open Issues](https://img.shields.io/github/issues/Kercx/JavaBooks?style=flat-square)
 
-> [!Warning] JavaBooks is in active development. APIs may change without notice. Use at your own risk.
+> [!WARNING]
+>
+JavaBooks is in active development. APIs may change without notice. Use at your own risk.
 
 ---
 

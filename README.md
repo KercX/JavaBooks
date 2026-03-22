@@ -41,7 +41,9 @@ JavaBooks/ │ ├─ src/com/javabooks/ │ ├─ model/Book.java │ 
 - **GitHub Pages Demo:** [JavaBooks Web Demo](https://kercx.github.io/JavaBooks)  
 - **Spring Boot Web Demo:** [JavaBooks API](https://kercx.github.io/JavaBooks/API)  
 
-> [!CAUTION] Live demos may not contain
+> [!CAUTION]
+>
+> Live demos may not contain
 > all  features.
 
 ---

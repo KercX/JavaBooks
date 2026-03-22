@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaBooks Documentation</title>
+<style>
+/* ===== CSS ===== */
+body, html { margin:0; padding:0; font-family: Arial,sans-serif; scroll-behavior:smooth; }
+.container { display:flex; min-height:100vh; }
+.sidebar { width:220px; background:#1e90ff; color:white; padding:20px; position:fixed; height:100%; overflow-y:auto; }
+.sidebar h2 { text-align:center; margin-bottom:30px; }
+.sidebar ul { list-style:none; padding:0; }
+.sidebar ul li { margin:15px 0; }
+.sidebar ul li a { color:white; text-decoration:none; font-weight:bold; transition:color 0.3s ease; }
+.sidebar ul li a:hover, .sidebar ul li a.active { color:#ffeb3b; }
+.content { margin-left:240px; padding:30px; flex:1; animation:fadeIn 0.5s ease; }
+.screenshot { max-width:300px; margin:10px 0; border:1px solid #ccc; transition:transform 0.3s ease; }
+.screenshot:hover { transform:scale(1.05); }
+pre { background:#eaeaea; padding:10px; overflow-x:auto; }
+h1,h2,h3 { color:#1e90ff; }
+section { margin-bottom:50px; }
+@keyframes fadeIn { from{opacity:0; transform:translateY(20px);} to{opacity:1; transform:translateY(0);} }
+</style>
+</head>
+<body>
+<div class="container">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>JavaBooks</h2>
+    <ul>
+      <li><a href="#overview" class="active">Overview</a></li>
+      <li><a href="#installation">Installation</a></li>
+      <li><a href="#usage">Usage</a></li>
+      <li><a href="#classes">Classes</a></li>
+      <li><a href="#docker">Docker</a></li>
+      <li><a href="#ci">CI/CD</a></li>
+      <li><a href="#license">License</a></li>
+    </ul>
+  </aside>
+
+  <!-- Content -->
+  <main class="content">
+    <section id="overview">
+      <h1>Overview</h1>
+      <p>JavaBooks is a Java library for managing books in console apps, web apps, and games like Minecraft. Provides add/list/search functions and easy integration into projects.</p>
+      <!-- Example Screenshots (base64 placeholders) -->
+      <img class="screenshot" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA..." alt="Console Screenshot">
+      <img class="screenshot" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA..." alt="Web Screenshot">
+    </section>
+
+    <section id="installation">
+      <h1>Installation</h1>
+      <p>Clone the repository:</p>
+      <pre><code>git clone https://github.com/yourusername/JavaBooks.git</code></pre>
+      <p>Include in Maven or Gradle project:</p>
+      <pre><code>&lt;dependency&gt;
+  &lt;groupId&gt;com.javabooks&lt;/groupId&gt;
+  &lt;artifactId&gt;javabooks&lt;/artifactId&gt;
+  &lt;version&gt;1.0.0&lt;/version&gt;
+&lt;/dependency&gt;</code></pre>
+    </section>
+
+    <section id="usage">
+      <h1>Usage Examples</h1>
+      <h2>Console Example</h2>
+      <pre><code>Library library = new Library();
+library.addBook(new Book("Java Programming","John Doe",2022));
+library.listBooks();
+library.searchByAuthor("Jane Smith");</code></pre>
+      <h2>Web Example</h2>
+      <pre><code>@RestController
+@RequestMapping("/books")
+public class ExampleWeb {
+    private Library library = new Library();
+    @GetMapping public List&lt;Book&gt; getAllBooks() { return library.getBooks(); }
+}</code></pre>
+    </section>
+
+    <section id="classes">
+      <h1>Classes</h1>
+      <h2>Book</h2>
+      <pre><code>public class Book {
+    private String title;
+    private String author;
+    private int year;
+    public Book(String title,String author,int year){...}
+    public String getTitle(){...}
+    public String getAuthor(){...}
+    public int getYear(){...}
+    public String toString(){...}
+}</code></pre>
+      <h2>Library</h2>
+      <pre><code>public class Library {
+    public void addBook(Book book){...}
+    public void listBooks(){...}
+    public void searchByAuthor(String author){...}
+    public void searchByTitle(String title){...}
+    public List&lt;Book&gt; getBooks(){...}
+}</code></pre>
+    </section>
+
+    <section id="docker">
+      <h1>Docker</h1>
+      <pre><code>docker build -t javabooks .
+docker run -it javabooks</code></pre>
+    </section>
+
+    <section id="ci">
+      <h1>CI/CD</h1>
+      <pre><code>name: Java CI
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-java@v3
+        with: java-version:17
+      - run: mvn clean compile</code></pre>
+    </section>
+
+    <section id="license">
+      <h1>License</h1>
+      <p>MIT License. See LICENSE file for details.</p>
+    </section>
+  </main>
+</div>
+
+<script>
+// ===== JS =====
+// Highlight active sidebar link on scroll
+const links=document.querySelectorAll('.sidebar ul li a');
+const sections=document.querySelectorAll('main section');
+function activateLink(){
+  let scrollPos=window.scrollY+120;
+  sections.forEach(section=>{
+    if(scrollPos>=section.offsetTop && scrollPos<section.offsetTop+section.offsetHeight){
+      links.forEach(link=>link.classList.remove('active'));
+      document.querySelector('.sidebar ul li a[href="#'+section.id+'"]').classList.add('active');
+    }
+  });
+}
+window.addEventListener('scroll', activateLink);
+</script>
+</body>
+</html>

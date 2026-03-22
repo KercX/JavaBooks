@@ -1,107 +1,104 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app" />
-</p>
+# JavaBooks 📚
 
+![Build](https://img.shields.io/github/workflow/status/KercX/JavaBooks/Java%20CI?style=flat-square)
+![License](https://img.shields.io/github/license/Kercx/JavaBooks?style=flat-square)
+![Java Version](https://img.shields.io/badge/Java-17-blue?style=flat-square)
+![Open Issues](https://img.shields.io/github/issues/Kercx/JavaBooks?style=flat-square)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/github-repo-blue?logo=github" />
-  <img src="https://img.shields.io" />
-  <img src="https://img.shields.io" />
-  <img src="https://img.shields.io" />
-</p>
+> ⚠️ **Warning:** JavaBooks is in active development. APIs may change without notice. Use at your own risk.
 
 ---
 
-## 📖 Table of Contents
-1. [Introduction](#-introduction)
-2. [Global Language Index](#-global-language-index)
-3. [Core Categories](#-core-categories)
-4. [How to Contribute](#-how-to-contribute)
+## 📋 Project Overview
+
+JavaBooks is a **Java library** for managing books in console apps, web applications, and games like Minecraft.  
+It provides **add/list/search** methods and can be integrated into **Java projects**, including **Spring Boot web apps** and **game mods**.
+
+---
+
+## 📁 Project Structure
+
+JavaBooks/ │ ├─ src/com/javabooks/ │ ├─ model/Book.java │ ├─ service/Library.java │ └─ Main.java │ ├─ misc/ │ ├─ screenshot_console.png │ └─ screenshot_web.png │ ├─ examples/ │ ├─ ExampleConsole.java │ └─ ExampleWeb.java │ ├─ .github/workflows/build.yml ├─ Dockerfile ├─ docker-compose.yml ├─ LICENSE ├─ CONTRIBUTING.md ├─ CODE_OF_CONDUCT.md └─ README.md
 
 
 ---
 
-## 🌟 Introduction
-**JavaBooks** is a community-driven, highly automated repository dedicated to collecting every high-quality, free Java programming resource available. Unlike static lists, this project uses a custom **Java-based engine** to validate links, generate statistics, and ensure content stays fresh.
+## 🛠️ Features
 
-> "The best way to learn Java is to read code and great books." - *Community*
-
----
-
-## 🌍 Global Language Index
-We believe education should be accessible in every language. Below is the current status of our localized libraries:
-
-
-| Language | Flag | Resources | Status | Link |
-| :--- | :---: | :---: | :---: | :--- |
-| **English** | 🇺🇸 | `150+` | 🟢 Healthy | [View Section](#english) |
-| **Ukrainian** | 🇺🇦 | `45+` | 🟢 Healthy | [View Section](#ukrainian) |
-| **Russian** | 🇷🇺 | `80+` | 🟢 Healthy | [View Section](#russian) |
-| **Spanish** | 🇪🇸 | `30+` | 🟡 Needs Help | [View Section](#spanish) |
-| **Portuguese** | 🇵🇹 | `25+` | 🟢 Healthy | [View Section](#portuguese) |
-| **French** | 🇫🇷 | `20+` | 🟢 Healthy | [View Section](#french) |
-| **German** | 🇩🇪 | `15+` | 🟡 Needs Help | [View Section](#german) |
-| **Dutch** | 🇳🇱 | `10+` | 🔴 Updating | [View Section](#dutch) |
-| **Polish** | 🇵🇱 | `18+` | 🟢 Healthy | [View Section](#polish) |
-| **Italian** | 🇮🇹 | `12+` | 🟢 Healthy | [View Section](#italian) |
-| **Swedish** | 🇸🇪 | `5+` | 🔴 Updating | [View Section](#swedish) |
-| **Norwegian** | 🇳🇴 | `4+` | 🟢 Healthy | [View Section](#norwegian) |
-| **Finnish** | 🇫🇮 | `3+` | 🟡 Needs Help | [View Section](#finnish) |
-| **Estonian** | 🇪🇪 | `2+` | 🟢 Healthy | [View Section](#estonian) |
-| **Latvian** | 🇱🇻 | `2+` | 🟢 Healthy | [View Section](#latvian) |
-| **Lithuanian** | 🇱🇹 | `3+` | 🟢 Healthy | [View Section](#lithuanian) |
+- Add books to library  
+- List all books  
+- Search books by **author** or **title**  
+- Ready for integration in **web apps and games**  
+- Console demo included for testing  
 
 ---
 
-## 🚀 Core Categories
-Our collection is organized into logical paths to help you progress from zero to hero:
+## 🌐 Live Demos
 
-- **🐣 Basics:** Syntax, Data Types, JVM Overview.
-- **🏗️ OOP:** Classes, Inheritance, Polymorphism, Design Patterns.
-- **⚙️ Frameworks:** Spring Boot, Jakarta EE, Micronaut.
-- **🧪 Testing:** JUnit, Mockito, Testcontainers.
-- **☁️ Cloud:** AWS for Java, Microservices, Docker, Kubernetes.
-- **🔧 Tools:** Maven, Gradle, IntelliJ IDEA Tips.
+- **GitHub Pages Demo:** [JavaBooks Web Demo](https://yourusername.github.io/JavaBooks)  
+- **Spring Boot Web Demo:** [JavaBooks API](https://javabooks-demo.example.com)  
+
+> ⚠️ Note: Live demos may not contain all features.
 
 ---
 
-<h2 id="english">🇺🇸 English Resources</h2>
+## 💻 Installation
 
-
-| Category | Title | Author | Level | Link |
-| :--- | :--- | :--- | :---: | :--- |
-| `Basics` | **Thinking in Java** | Bruce Eckel | 🟢 Beg | [🔗 Read](https://example.com) |
-| `Advanced` | **Effective Java** | Joshua Bloch | 🔴 Adv | [🔗 Read](https://example.com) |
-| `Frameworks` | **Spring in Action** | Craig Walls | 🟡 Int | [🔗 Read](https://example.com) |
-| `Concurrency` | **Java Concurrency in Practice** | Brian Goetz | 🔴 Adv | [🔗 Read](https://example.com) |
-| `Patterns` | **Head First Design Patterns** | Eric Freeman | 🟢 Beg | [🔗 Read](https://example.com) |
-| `JVM` | **The Well-Grounded Java Developer** | Ben Evans | 🟡 Int | [🔗 Read](https://example.com) |
-
-*(... and 140+ more resources)*
-
-<h2 id="ukrainian">🇺🇦 Ukrainian Resources</h2>
-
-
-| Category | Title | Author | Level | Link |
-| :--- | :--- | :--- | :---: | :--- |
-| `Basics` | **Java Basics for Beginners** | Community | 🟢 Beg | [🔗 Read](https://example.com) |
-| `Web` | **Spring Boot UA Guide** | DevUA | 🟡 Int | [🔗 Read](https://example.com) |
-
----
-
-## 🤝 How to Contribute
-We love Pull Requests! Here is how you can help:
-
-1. **Check for duplicates:** Search the current list before adding.
-2. **Use JSON:** All data lives in `data/*.json`. Don't edit README.md directly!
-3. **Link Quality:** Ensure the link is free and legal.
-4. **Follow the Script:** Run `java scripts/main.java` to verify your changes.
+Clone the repository:
 
 ```bash
-# Workflow for contributing
-git checkout -b feature/add-new-book
-# Edit data/en.json
-javac scripts/main.java && java -cp scripts main
-git commit -m "Add [Book Title] to [Language]"
-git push origin feature/add-new-book
+git clone https://github.com/Kercx/JavaBooks
 ```
+
+Include the library in your project.
+Maven:
+
+<dependency>
+    <groupId>com.javabooks</groupId>
+    <artifactId>javabooks</artifactId>
+    <version>1.0.0</version>
+</dependency>
+
+Gradle:
+```bash
+implementation 'com.javabooks:javabooks:1.0.0'
+```
+
+
+📚 Usage Examples
+Console Example
+```java
+import com.javabooks.model.Book;
+import com.javabooks.service.Library;
+
+public class ExampleConsole {
+    public static void main(String[] args) {
+        Library library = new Library();
+        library.addBook(new Book("Java Programming", "John Doe", 2022));
+        library.addBook(new Book("Minecraft Modding", "Jane Smith", 2023));
+        library.listBooks();
+        library.searchByAuthor("Jane Smith");
+    }
+}
+```
+
+Web Example (Spring Boot)
+```java 
+@RestController
+@RequestMapping("/books")
+public class ExampleWeb {
+    private Library library = new Library();
+
+    @GetMapping
+    public List<Book> getAllBooks() {
+        return library.getBooks();
+    }
+
+    @PostMapping
+    public String addBook(@RequestBody Book book) {
+        library.addBook(book);
+        return "Book added successfully!";
+    }
+}
+```
+**⚠️ Warning:** Web example requires Spring Boot dependencies and setup.

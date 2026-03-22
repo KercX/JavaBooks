@@ -7,6 +7,7 @@
 
 > [!WARNING]
 >
+### JUST WARNING
 JavaBooks is in active development. APIs may change without notice. Use at your own risk.
 
 ---

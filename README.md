@@ -35,8 +35,8 @@ JavaBooks/ │ ├─ src/com/javabooks/ │ ├─ model/Book.java │ 
 
 ## 🌐 Live Demos
 
-- **GitHub Pages Demo:** [JavaBooks Web Demo](https://yourusername.github.io/JavaBooks)  
-- **Spring Boot Web Demo:** [JavaBooks API](https://javabooks-demo.example.com)  
+- **GitHub Pages Demo:** [JavaBooks Web Demo](https://kercx.github.io/JavaBooks)  
+- **Spring Boot Web Demo:** [JavaBooks API](https://kercx.github.io/JavaBooks/API)  
 
 > ⚠️ Note: Live demos may not contain all features.
 
@@ -90,7 +90,7 @@ public class ExampleWeb {
     private Library library = new Library();
 
     @GetMapping
-    public List<Book> getAllBooks() {
+    public List to<Book> getAllBooks() {
         return library.getBooks();
     }
 

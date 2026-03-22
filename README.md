@@ -8,7 +8,7 @@
 > [!WARNING]
 >
 > ### JUST WARNING
-> JavaBooks is in active development.This > APIs may change without notice. Use at > > your own risk.
+> JavaBooks is in active development.This > APIs may change without notice. Use at > your own risk.
 
 ---
 
@@ -41,7 +41,7 @@ JavaBooks/ │ ├─ src/com/javabooks/ │ ├─ model/Book.java │ 
 - **GitHub Pages Demo:** [JavaBooks Web Demo](https://kercx.github.io/JavaBooks)  
 - **Spring Boot Web Demo:** [JavaBooks API](https://kercx.github.io/JavaBooks/API)  
 
-> ⚠️ Note: Live demos may not contain all features.
+> [!Note] > Live demos may not contain all features.
 
 ---
 

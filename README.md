@@ -115,3 +115,8 @@ Method	Endpoint	Description
 GET	/books	Get all books
 POST	/books	Add book
 GET	/books/search	Search
+
+```bash
+docker build -t javabooks .
+docker run -p 8080:8080 javabooks
+```

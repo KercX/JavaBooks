@@ -107,4 +107,11 @@ public class ExampleWeb {
     }
 }
 ```
-**⚠️ Warning:** Web example requires Spring Boot dependencies and setup.
+>[!WARNING] 
+> Web example requires Spring Boot dependencies and setup.
+
+## 🌐 API Endpoints
+Method	Endpoint	Description
+GET	/books	Get all books
+POST	/books	Add book
+GET	/books/search	Search

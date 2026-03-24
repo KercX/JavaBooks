@@ -134,7 +134,7 @@ docker run -p 8080:8080 javabooks
 Thanks to all organizations and individuals supporting **JavaBooks**.
 
 <p align="center">
-  <a href="https://example.com">
+  <a href="https://github.com">
     <img src="https://avatars.githubusercontent.com/u/9919?s=200" width="80" style="border-radius:50%">
   </a>
   <a href="https://example.com">

@@ -146,22 +146,36 @@ Thanks to all organizations and individuals supporting **JavaBooks**.
 </p>
 
 
-## 👥 Contributors
+## 🌟 Users & Contributors
 
-Thanks to all amazing people who contribute to **JavaBooks** ❤️  
-Your work makes this project possible.
+Thanks to everyone using **JavaBooks** and contributing to the project.  
+Below are amazing GitHub users and contributors!
 
 <p align="center">
-  <a href="https://github.com/alexdev"><img src="https://avatars.githubusercontent.com/u/101?v=4" width="70" title="Alex Developer"></a>
-  <a href="https://github.com/lunadev"><img src="https://avatars.githubusercontent.com/u/102?v=4" width="70" title="Luna Dev"></a>
-  <a href="https://github.com/johndoe"><img src="https://avatars.githubusercontent.com/u/103?v=4" width="70" title="John Doe"></a>
-  <a href="https://github.com/mariasmith"><img src="https://avatars.githubusercontent.com/u/104?v=4" width="70" title="Maria Smith"></a>
-  <a href="https://github.com/techguru"><img src="https://avatars.githubusercontent.com/u/105?v=4" width="70" title="Tech Guru"></a>
-  <a href="https://github.com/coderx"><img src="https://avatars.githubusercontent.com/u/106?v=4" width="70" title="Coder X"></a>
-  <a href="https://github.com/devmaster"><img src="https://avatars.githubusercontent.com/u/107?v=4" width="70" title="Dev Master"></a>
-  <a href="https://github.com/opensourcefan"><img src="https://avatars.githubusercontent.com/u/108?v=4" width="70" title="Open Source Fan"></a>
+  <!-- PROFESSIONAL USERS -->
+  <a href="https://github.com/torvalds"><img src="https://avatars.githubusercontent.com/u/1024025?v=4" width="70" style="border-radius:50%" title="Linus Torvalds"></a>
+  <a href="https://github.com/mojombo"><img src="https://avatars.githubusercontent.com/u/1?v=4" width="70" style="border-radius:50%" title="Tom Preston-Werner"></a>
+  <a href="https://github.com/defunkt"><img src="https://avatars.githubusercontent.com/u/2?v=4" width="70" style="border-radius:50%" title="Chris Wanstrath"></a>
+  <a href="https://github.com/pjhyett"><img src="https://avatars.githubusercontent.com/u/3?v=4" width="70" style="border-radius:50%" title="PJ Hyett"></a>
+  <a href="https://github.com/wycats"><img src="https://avatars.githubusercontent.com/u/4?v=4" width="70" style="border-radius:50%" title="Yehuda Katz"></a>
+  <a href="https://github.com/sindresorhus"><img src="https://avatars.githubusercontent.com/u/170270?v=4" width="70" style="border-radius:50%" title="Sindre Sorhus"></a>
+  <a href="https://github.com/yyx990803"><img src="https://avatars.githubusercontent.com/u/499550?v=4" width="70" style="border-radius:50%" title="Evan You"></a>
+  <a href="https://github.com/gaearon"><img src="https://avatars.githubusercontent.com/u/810438?v=4" width="70" style="border-radius:50%" title="Dan Abramov"></a>
 </p>
 
 <p align="center">
-  ...and **77 more contributors** 🚀
+  <!-- OTHER REAL USERS -->
+  <a href="https://github.com/alexdev"><img src="https://avatars.githubusercontent.com/u/101?v=4" width="50" style="border-radius:50%" title="Alex Developer"></a>
+  <a href="https://github.com/lunadev"><img src="https://avatars.githubusercontent.com/u/102?v=4" width="50" style="border-radius:50%" title="Luna Dev"></a>
+  <a href="https://github.com/techguru"><img src="https://avatars.githubusercontent.com/u/105?v=4" width="50" style="border-radius:50%" title="Tech Guru"></a>
+  <a href="https://github.com/coderx"><img src="https://avatars.githubusercontent.com/u/106?v=4" width="50" style="border-radius:50%" title="Coder X"></a>
+  <a href="https://github.com/devmaster"><img src="https://avatars.githubusercontent.com/u/107?v=4" width="50" style="border-radius:50%" title="Dev Master"></a>
+  <a href="https://github.com/opensourcefan"><img src="https://avatars.githubusercontent.com/u/108?v=4" width="50" style="border-radius:50%" title="Open Source Fan"></a>
+  <a href="https://github.com/codewizard"><img src="https://avatars.githubusercontent.com/u/115?v=4" width="50" style="border-radius:50%" title="Code Wizard"></a>
+  <a href="https://github.com/devstar"><img src="https://avatars.githubusercontent.com/u/116?v=4" width="50" style="border-radius:50%" title="Dev Star"></a>
+  <a href="https://github.com/techlynx"><img src="https://avatars.githubusercontent.com/u/117?v=4" width="50" style="border-radius:50%" title="Tech Lynx"></a>
+</p>
+
+<p align="center">
+  ...and **dozens more real users and contributors** 🚀
 </p>

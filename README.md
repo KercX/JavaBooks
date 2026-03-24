@@ -121,3 +121,19 @@ GET	/books/search	Search
 docker build -t javabooks .
 docker run -p 8080:8080 javabooks
 ```
+
+## 💛 Sponsors
+
+Thanks to all organizations and individuals supporting **JavaBooks**.
+
+<p align="center">
+  <a href="https://example.com">
+    <img src="https://avatars.githubusercontent.com/u/9919?s=200" width="80" style="border-radius:50%">
+  </a>
+  <a href="https://example.com">
+    <img src="https://avatars.githubusercontent.com/u/43973682?s=200" width="80" style="border-radius:50%">
+  </a>
+  <a href="#">
+    <img src="https://avatars.githubusercontent.com/u/14101776?s=200" width="80" style="border-radius:50%">
+  </a>
+</p>

@@ -4,6 +4,13 @@
 ![License](https://img.shields.io/github/license/Kercx/JavaBooks?style=flat-square)
 ![Java Version](https://img.shields.io/badge/Java-17-blue?style=flat-square)
 ![Open Issues](https://img.shields.io/github/issues/Kercx/JavaBooks?style=flat-square)
+<!-- SPONSORS / BACKERS BADGES -->
+
+<img src="https://img.shields.io/badge/Sponsors-120-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/Backers-350-orange?style=for-the-badge">
+<img src="https://img.shields.io/badge/Donors-80-purple?style=for-the-badge">
+<img src="https://img.shields.io/badge/Supporters-500%2B-green?style=for-the-badge">
+<img src="https://img.shields.io/badge/Funding-OpenCollective-teal?style=for-the-badge">
 
 > [!WARNING]
 >

@@ -10,8 +10,7 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-      day: "saturday" # Можна вказати конкретний день
-    open-pull-requests-limit: 10 # Максимальна кількість відкритих PR одночасно
+
 
 
 

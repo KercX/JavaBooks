@@ -5,9 +5,13 @@
 
 version: 2
 updates:
-  # Секція для GitHub Actions
+  # Налаштування для оновлення GitHub Actions
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
+      day: "saturday" # Можна вказати конкретний день
+    open-pull-requests-limit: 10 # Максимальна кількість відкритих PR одночасно
+
+
 

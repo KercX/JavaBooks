@@ -5,7 +5,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: "github actiond"
+  - package-ecosystem: "githubactions"
     directory: "/"
     schedule:
       interval: "daily"

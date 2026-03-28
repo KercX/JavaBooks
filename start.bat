@@ -1,6 +1,6 @@
 @echo off
-color 0A
-title JavaBooks PRO Launcher
+color 0a
+title JavaBooks Laun
 
 :menu
 cls
@@ -39,7 +39,7 @@ goto menu
 echo Compiling...
 javac com/javabooks/*.java
 if %errorlevel% neq 0 (
-    echo ERROR!
+    echo ERROR NOT FIND!
     pause
     goto menu
 )

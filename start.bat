@@ -51,6 +51,6 @@ goto menu
 :clean
 echo Cleaning...
 del /s /q com\javabooks\*.class
-echo Done!
+echo Its done!
 pause
 goto menu
